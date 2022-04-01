@@ -1,11 +1,12 @@
 h1{
-    color: rgb(243, 3, 3);
+    color: rgb(255, 255, 255);
 }
 body{
-    background-image:url(screenshot%20fuer%20webseite.png);
-    background-position: center;
-    background-repeat:repeat;
-    background-size:auto;
+   /*background-image:url();*/
+  background-position: center;
+  background-repeat:repeat;
+  background-size: auto;
+  background: linear-gradient(to bottom, rgb(124, 12, 12), rgb(0, 0, 0));
 }
   h2{
       color: white;
@@ -33,37 +34,3 @@ padding: 5px;
 border-radius: -1px 15px 5px 30px;
 box-sizing:border-box;
 }
-
-    @media screen and (max-width: 300px) {
-        input {
-            font-size: 17px;
-            width: 100px
-        }
-    }
-
-    div{
-        font-size: 20pt;
-    }
-   
-    u{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
-    h2{
-        font-family:fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    }
-
-    @media screen and (max-width: 600px) {
-        input {
-            font-size: 70px;
-            width: 250px
-        }
-    }
-
-    @font-face {
-        font-family:fantasy;
-        src: url(sansation_light.woff);
-      }
-      
-      div {
-        font-family:fantasy;
-      }
