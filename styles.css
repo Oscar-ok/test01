@@ -10,7 +10,7 @@ body{
   background-position: center;
   background-repeat:repeat;
   background-size: auto;
-  background: linear-gradient(25deg, black, rgb(226, 0, 0));
+  background: linear-gradient(25deg, rgb(68, 48, 48), rgb(255, 255, 255));
 }
 p{
   color: rgb(255, 255, 255);
